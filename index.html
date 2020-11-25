@@ -1,0 +1,73 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" type="text/css" href="./reset.css">
+     <link rel="stylesheet" type="text/css" href="./styles.css">
+     <title>FIAP ESTELLAR</title>
+ </head>
+  <body>
+
+    <div class="container">
+
+      <header class="header">
+        <h2>FIAP ESTELLAR</h2>
+      </header>
+
+      <nav class="main-nav">
+        <ul>
+        <li><a class="navbar-item" href="./Tela2/index.html">Lista</a></li>
+        </ul>
+      </nav>
+ 
+      <div class="titulo">
+        Coloque suas informações aqui: 
+      </div> 
+
+      <div class="frm">
+        <form id="form" name="form" method="post" action="javascript:onClick()">
+          <span>
+            <label for="">Elemento:&nbsp</label>
+            <input type="text" id="elemento">
+          </span>
+        
+          <span>
+            <label for="">Peso:&nbsp</label>
+            <input type="text" id="peso">
+          </span>
+        
+          <span>
+            <label for="">Volume:&nbsp</label>
+            <input type="text" id="volume">
+          </span>
+        
+          <span>
+            <label for="">Latitude:&nbsp</label>
+            <input type="text" id="latitude">
+          </span>
+
+          <span>
+            <label for="">Longitude:&nbsp</label>
+            <input type="text" id="longitude">
+          </span>
+
+          <span>
+            <label for="">Id:&nbsp</label>
+            <input type="text" id="id">
+          </span>
+
+          <div class="btn">
+            <button type="submit" id="calcular">Enviar</button>
+          </div>
+        </form>  
+
+        <label class="label" id="label"></label>  
+
+      </div>
+    </div>
+
+    <script src="javascript.js"></script>
+
+  </body>
+ </html>
