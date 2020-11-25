@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgreen;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    color: greenyellow;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    text-justify: inter-word;
+    width: auto;
+    padding: 1rem;
+    color: greenyellow;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.famoso-lista {
+    text-align: center;
+    padding-bottom: 3rem;
+    font-size: 30px;
+    color: greenyellow;
+}
+
+p{
+    text-align: center;
+}
+
+.campo {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    color: greenyellow;
+}
+
+.lista-dinamica{
+    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.btn {
+    display: flex;  
+    justify-content: center;
+    background-color: black;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 9px;
+    border-top-color: magenta;
+    border-left-color: olivedrab;
+    border-right-color: orangered;
+    border-bottom-color: royalblue;
+    color: red;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.posicao-lista {
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    padding-top: initial;
+    color: black;
+}
+
+.header {
+    display: flex;
+    background: greenyellow;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+.navbar-item {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+  
+.main-nav {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: green;
+    color: white;
+    padding: 1em;
+    font-family: sans-serif;
+}
+
+.main-nav > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.main-nav li {
+    margin-right: auto;
+    align-self: center;
+    text-align: center;
+}
+ 
+@media screen and (max-width: 575px) {
+
+    .main-nav {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .main-nav ul {
+        flex-direction: row-reverse;
+    }
+
+    .main-nav li {
+        display: flex;
+    }
+
+    .navbar-item {
+        padding: 5px;
+    }
+
+    .texto {
+        font-size: 1.25rem;
+    }
+
+    .campo {
+        width: 80%;
+    }
+}
